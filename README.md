@@ -1,4 +1,7 @@
 # TODO App
+Linkki videoon:
+
+https://unioulu-my.sharepoint.com/:v:/g/personal/t3majo00_students_oamk_fi/IQAR4j_a_FPtQLKvbSItR_91AQgq1AL6jjcEcwfBBZDwW3Y?e=c3W79i
 ## Compose-tilanhallinta
 
 Compose toimii niin, että UI näyttää aina sen mukaan, mitä tilassa (state) on. Kun tilaa muutetaan, Compose piirtää näytön uudestaan automaattisesti. Esimerkiksi remember { mutableStateOf("") } pitää tekstikentän sisällön muistissa ja päivittää UI:n, kun teksti muuttuu.
@@ -29,7 +32,7 @@ Sovelluksessa on puhtaita Kotlin-funktioita, jotka käsittelevät task-listaa:
 - `addTask(task)`  
   Lisää uuden taskin listan loppuun.
 
-- `removeTask(id: Int)`  
+- `removeTask(id)`  
   Poistaa taskin.
   
 - `toggleDone(id)`  
